@@ -23,15 +23,11 @@ class DriversUnitTest {
 
     @Test
     fun driver_quantity_isCorrect() {
-        val test = driversShipments.drivers.count()
-        println(test)
         Assert.assertEquals(10, driversShipments.drivers.count())
     }
 
     @Test
     fun address_quantity_isCorrect() {
-        val test = driversShipments.shipments.count()
-        println(test)
         Assert.assertEquals(10, driversShipments.drivers.count())
     }
 
