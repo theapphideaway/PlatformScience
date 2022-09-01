@@ -36,13 +36,13 @@
                 android:text="TextView"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="@+id/shipment_address_tv"
+                app:layout_constraintBottom_toTopOf="@+id/shipment_tv"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/shipment_address_tv"
+                android:id="@+id/shipment_tv"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
